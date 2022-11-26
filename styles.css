@@ -132,8 +132,6 @@ body {
   justify-content: center;
 }
 
-
-
 h1 {
   padding-bottom: 5px;
 }
@@ -150,7 +148,6 @@ li{
     line-height: 22px;
 }
 
-
 /* Page 2 Onwards */
 
 .page {
@@ -165,11 +162,11 @@ li{
   justify-content: space-between;
 }
 
-.page2graphics {
+.page2img {
   width: 39.09%;
 }
 
-.boxleft {
+.page2sect1 {
   width: 100%;
 }
 
@@ -198,4 +195,14 @@ li{
 .heads {
   font-size: 2vh;
   display: inline-block;
+}
+
+/* Page 3 */
+
+.page3 {
+  padding-left: 0;
+}
+
+.page2img {
+  height: 100vh;
 }
