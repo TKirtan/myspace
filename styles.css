@@ -138,10 +138,23 @@ li{
 /* Page 2 Onwards */
 
 .page {
-  width: 90%;
+  width: 95%;
   height: 100vh;
   padding-left: 5vw;
-  padding-right: 5vw;
+}
+
+.page2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.page2graphics {
+  width: 39.09%;
+}
+
+.boxleft {
+  width: 100%;
 }
 
 .heading1 {
