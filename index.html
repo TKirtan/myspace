@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Kirtan's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="Images/Profile.ico">
+        <!-- font       -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+      </head>
+    <body>
+
+        <div class="page1">
+
+          <!-- Right Section -->
+            <section class="section1 sectionbox">
+              <div class="section1_1">
+                <h1 class="name">Kirtan Kushwah</h1>
+                <img class="profileimg" src="Images/Profile.png" alt="Profile Image">
+                <br><br>
+                <p><strong>E-Mail : </strong> kirtankushwah03@gmail.com</p>
+                <p><strong>Address : </strong> Aasra Heights Apartment, Bhopal</p>
+              </div>
+            </section>
+
+          <!-- Left Section -->
+            <section class="section2 sectionbox">
+
+              <div class="blanksocials">
+                <h1 class="head">You here, again ?</h1>
+                <h1 class="connect">Let's connect and meet over a coffee</h1>
+                <div class="iconsbox">
+                  <div class="icons">
+                    <a href="https://www.linkedin.com/in/tkirtan/" target="_blank"><img class="icons1" src="Images/Logos/linkedin.png" alt=""></a>
+                    <a href="https://twitter.com/T_kirtan_" target="_blank"><img class="icons2" src="Images/Logos/twitter.png" alt=""></a>
+                    <a href="https://github.com/TKirtan" target="_blank"><img class="icons3" src="Images/Logos/github.png" alt=""></a>
+                  </div>
+                </div>
+              </div>
+
+              <ul>
+                <!-- <h1 class="biohead">BIO</h1>
+                  <li><strong><h2>SUMMARY</h2></strong></li> -->
+                <p class="bio">ㅤㅤㅤㅤㅤㅤㅤI am a quick learner and comfortable in adapting new technologies and environment, I am a tech geek and passionate about technologies and programing.
+                    I do program in JAVA and my work follows DevOps Culture. I am an Open-Source enthusiast and I follow agile practices in software development.
+                    I am an tech geek currently working on Cloud Computing and DevOps.
+                    I believe DevOps is not just about Tools and platforms but also about Culture. I strongly believe in the ethics and communitcation systems in organisation which makes me more curious to know about organisation's working and project's demand.
+                <br><br>Also throughout my career I have been in many tech communities where I have grown my connections amnong developers, HRs and tech enthusiasts. Over the time, I have experienced that projects enchances as much as it get reviewd and new ideas are added to it. This has intrigued me more towards Open-Source.</p>
+              </ul>
+
+            </section>
+        </div>
+
+<hr>
+        <!-- Page 2 -->
+
+        <section class="page page2">
+          <h1 class="heading1">EXPERIENCE</h1>
+
+          <ul>
+            <div>
+              <li><strong><h2>DevOps Engineer</h2></strong></li>
+              <div class="cd">
+                <h4 class="heads">ㅤㅤㅤBlue Planet Info Solution Pvt. Ltd.</h4>
+                <p class="duration">Nov. 2022 - Present</p>
+              </div>
+
+              <br>
+                <br><ul class="section_details">
+                  <li>Currently Training Interns for adopting DevOps Culture and Agile Methodologies</li>
+                  <li>Took sessions to explain procedures/methods, tools and cloud platforms (Amazon Web Services, MS Azure and Google Cloud Platform)</li>
+                  <li>Documented many procedures and methods used in DevOps transformations</li>
+                  <li>Working on the project for Cloud Migrations</li>
+                </ul>
+              </p>
+            </div>
+          </ul>
+        </section>
+
+<hr>
+        <!-- Page 3 -->
+
+        <section class="page page3">
+          <h1 class="heading1">PROJECTS</h1>
+<br>
+          <ul>
+            <div>
+              <li><strong><h2>Mirror-Bot</h2></strong></li>
+
+              <p>ㅤThis is Mirror-Bot which can save files from Direct URL, YT-DL Links, Torrent Files, Magnet Links and Telegram Files to Google Drive.
+                <br><br><h4 class="heads">Project Details</h4>
+                <br>
+                <ul class="section_details">
+                  <li>Mirror-Bot downloads file from the source to server which is deployed over AWS EC2 Instance (Configuration : RHEL Machine with 30GB Storage, t2.micro), the files are then processed as per command i.e. Zipping, Unzipping etc. Further it uploads the resulted files to Google Drive by using Google Drive API and IAM Service (Service Accounts for getting over daily upload limit of Google Drive from 720GB per day to 75TB per day)</li>
+                  <li>Code is taken from a open-source repository and deployed using Docker over VPS</li>
+                  <li>Technologies and APIs used in the project are Containerization (Docker), Linux (OS, RHEL), AWS (Cloud Provider for VPS), GCP (For Authentication, IAM Service and Google Drive Services), Cloudflare (Workers for projecting drive files to open web, also for streaming media content), Telegram's Application Development API (User Interface), Git (Version Control System)</li>
+                  <li>Further updates am working on are adding a CI/CD Pipeline using Jenkins, Creating a Load Balancer for the Bot on AWS and Creating an monitoring and log saver to present data in graphical form</li>
+                </ul>
+              </p>
+            </div>
+<br>
+            <div>
+              <li><strong><h2>Worker Deployment</h2></strong></li>
+
+              <p>ㅤThis is an website which can stream files from google drive with an user accounts system with multiple permission levels.
+                <br><br><h4 class="heads">Project Details</h4>
+                <br>
+                <ul class="section_details">
+                  <li>It is deployment of G-Index-V4 which is a complete worker website Integrated with Google Drive for presenting and streaming files on worker site</li>
+                  <li>It also consisted of user account system, settled up by OTP and create account system using SMTP</li>
+                  <li>Technologies and APIs used in the project are Containerization (Docker), MangoDB for Database, Linux (OS, RHEL), AWS (Cloud Provider for VPS), GCP (For Authentication, IAM Service and Google Drive Services), Cloudflare (Workers for projecting drive files to open web, also for streaming media content), Git (Version Control System), TMDB API</li>
+                </ul>
+              </p>
+            </div>
+
+          </ul>
+        </section>
+
+
+
+    </body>
+</html>

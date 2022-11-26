@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Body  */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+
+.page1 {
+    /* border: 1px solid red; */
+    /* margin: 0 20% 0; */
+    padding-top: 20px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2vh;
+    display: flex;
+    height: 100vh;
+}
+
+.blanksocials {
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+}
+
+.head {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.connect {
+  text-align: center;
+}
+
+/* Icons */
+
+.icons1 {
+  height: 50px;
+  width: 50px;
+}
+
+.icons2 {
+  height: 51px;
+  width: 51px;
+}
+
+.icons3 {
+  height: 51px;
+  width: 51px;
+}
+
+.icons {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.iconsbox {
+  justify-content: center;
+  display: flex;
+  margin-top: 8vh;
+}
+
+.section1 {
+    width:40%;
+    /* border: 1px solid black; */
+    margin-right: 30px;
+}
+
+.section1_1 {
+  padding-top: 10vh;
+}
+
+.name {
+    font-size: 3.54vw;
+}
+
+.profileimg {
+    width: 70%;
+    align-items: center;
+    margin-left: 6.8%;
+}
+
+.section2 {
+    width: 60%;
+    /* border: 1px solid black; */
+    padding-top: 3vh;
+}
+
+h1 {
+  padding-bottom: 5px;
+}
+
+h2 {
+  line-height: 50px;
+}
+
+h4 {
+  font-size: 1vw;
+}
+
+li{
+    line-height: 22px;
+}
+
+.bio {
+  text-align: justify;
+}
+
+/* Page 2 Onwards */
+
+.page {
+  width: 90%;
+  height: 100vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.heading1 {
+  padding-top: 3vh;
+  font-size: 6.7vh;
+}
+
+.duration {
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+}
+
+.cd {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.section_details {
+  padding-left: 1.7vw;
+}
+
+.heads {
+  font-size: 2vh;
+  display: inline-block;
+}
