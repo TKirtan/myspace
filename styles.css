@@ -24,6 +24,35 @@
   background: #555;
 }
 
+
+/* Navigation */
+
+.navi {
+  list-style-type: none;
+  height: 60vh;
+  width: 4vw;
+  background-image: linear-gradient(to bottom right, #fff8f8, #d7f8ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-bottom: 25vh;
+  margin-right: 4vh;
+  text-align: center;
+}
+
+.navi a {
+  text-decoration: none;
+  color: #301934;
+  font-weight: bold;
+}
+
+.father {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
 /* Body  */
 
 body {
@@ -34,69 +63,21 @@ body {
 }
 
 .page1 {
-    /* border: 1px solid red; */
-    /* margin: 0 20% 0; */
     padding-top: 20px;
     width: 60%;
-    margin-right: 20%;
+    margin-right: auto;
     margin-left: 20%;
     margin-top: 2vh;
     display: flex;
     height: 100vh;
 }
 
-.blanksocials {
-  margin-bottom: 10vh;
-  margin-top: 5vh;
-}
-
-.head {
-  font-size: 1.5vw;
-  text-align: center;
-}
-
-.connect {
-  text-align: center;
-}
-
-/* Icons */
-
-.icons1 {
-  height: 50px;
-  width: 50px;
-}
-
-.icons2 {
-  height: 51px;
-  width: 51px;
-}
-
-.icons3 {
-  height: 51px;
-  width: 51px;
-}
-
-.icons {
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
-}
-
-.iconsbox {
-  justify-content: center;
-  display: flex;
-  margin-top: 8vh;
-}
+/* Section 1 */
 
 .section1 {
     width:40%;
-    /* border: 1px solid black; */
     margin-right: 30px;
-}
-
-.section1_1 {
-  padding-top: 10vh;
+    padding-top: 10vh;
 }
 
 .name {
@@ -109,11 +90,49 @@ body {
     margin-left: 6.8%;
 }
 
+/* Section 2 */
+
+.head {
+  font-size: 1.6vw;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.connect {
+  text-align: center;
+}
+
+.bio {
+  text-align: justify;
+}
+
 .section2 {
     width: 60%;
-    /* border: 1px solid black; */
     padding-top: 3vh;
 }
+
+
+/* Icons */
+
+.icons  {
+  height: 50px;
+  width: 50px;
+}
+
+.iconsrow {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-bottom: 10vh;
+}
+
+.iconsbox {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 h1 {
   padding-bottom: 5px;
@@ -131,9 +150,6 @@ li{
     line-height: 22px;
 }
 
-.bio {
-  text-align: justify;
-}
 
 /* Page 2 Onwards */
 
@@ -163,6 +179,7 @@ li{
 }
 
 .duration {
+  font-size: 17.5px;
   font-style: italic;
   text-align: right;
   display: inline-block;
