@@ -47,13 +47,14 @@
   font-weight: bold;
 }
 
+/* Body  */
+
+
 .father {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
-
-/* Body  */
 
 body {
     margin: 0;
@@ -86,11 +87,15 @@ body {
 
 .profileimg {
     width: 70%;
-    align-items: center;
     margin-left: 6.8%;
 }
 
 /* Section 2 */
+
+.section2 {
+    width: 60%;
+    padding-top: 3vh;
+}
 
 .head {
   font-size: 1.6vw;
@@ -104,11 +109,6 @@ body {
 
 .bio {
   text-align: justify;
-}
-
-.section2 {
-    width: 60%;
-    padding-top: 3vh;
 }
 
 
